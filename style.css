@@ -1,0 +1,42 @@
+:root{/*seletor que vai na raiz, é o sletor mais profundo para criar variaveis locais*/
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002F52;
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.titulo{
+    color: red;
+    margin: auto;
+    padding: 20px 100px 20px;
+    font-size: 40px;
+}
+
+.ultima{
+    margin: 50px 550px;
+    font-size: 29px;
+    border: 1px solid var(--preto);
+    border-radius: 16px;
+    padding: 0.6em 1em;
+}
+
+.video{
+    margin: 0px 400px;
+    display: flex;/*tranformei o cabeçalho em um flex container, e o seus filhos viraram itens do flex, e todos ficaram umd o lado do outro*/
+    justify-content: space-between;/*e o justify content between joga para os cantos, e o justify-content serve para definir pro navegador como que os itens ficaram distribuidos pela a tela*/
+    align-items: center;/*é acionado atraves do fisplay fkex e serve para especificar o alinhamento dos itens dentro de um cotainer*/
+    position: relative;
+}
